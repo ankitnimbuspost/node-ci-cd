@@ -26,5 +26,8 @@ test('divide numbers',()=>{
    expect(divide(-20,4)).toBe(-5);
 });
 test('subtract numbers',()=>{
-   expect(subtract(-20,4)).toBe(-5);
+   expect(subtract(-20,4)).toBe(-24);
+});
+test('subtract numbers',()=>{
+   expect(subtract(-20,-4)).toBe(-16);
 });
