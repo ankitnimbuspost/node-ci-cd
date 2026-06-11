@@ -1,4 +1,4 @@
-const {sum,multiply,divide} = require("../calculation")
+const {sum,multiply,divide,subtract} = require("../calculation")
 
 test('add numbers',()=>{
    expect(sum(2,3)).toBe(5);
@@ -24,4 +24,7 @@ test('divide numbers',()=>{
 });
 test('divide numbers',()=>{
    expect(divide(-20,4)).toBe(-5);
+});
+test('subtract numbers',()=>{
+   expect(subtract(-20,4)).toBe(-5);
 });
